@@ -15,6 +15,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        //MusicStore.inicializarDiscografica;
+        //ViewBag.Discos = MusicStore.Discos
         return View();
     }
+    /*public IActionResult discoExiste(string nombre){
+        bool Contiene = Discos.ContainsKey(nombre);
+        
+    }*/
 }
