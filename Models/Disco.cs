@@ -1,14 +1,17 @@
 namespace TP_03_ZIA.Models;
 class Disco
 {
+    
+    public string nombre { get; private set; }
     public string artista { get; private set; }
     public string productor{ get; private set; }
     public string genero{ get; private set; }
     public List <string>Temas = new List<string>();
     public string foto{ get; private set; }
 
-    public Disco(string artista, string productor, string genero, string foto)
+    public Disco(string nombre, string artista, string productor, string genero, string foto)
     {
+    this.nombre = nombre;
     this.artista = artista;
     this.productor = productor;
     this.genero = genero;
