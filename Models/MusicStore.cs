@@ -1,5 +1,5 @@
 namespace TP_03_ZIA.Models;
-static class Grupo
+static class MusicStore
 {
     static public Dictionary<int, Disco> Discos{get; private set;}
 static public void InicializarDiscografica()
