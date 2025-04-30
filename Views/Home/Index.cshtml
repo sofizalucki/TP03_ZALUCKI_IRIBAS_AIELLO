@@ -1,8 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
+<section>
+
 
 <div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
+    <h1>MusicStore</h1>
+    <p>Todos tus discos favoritos aca...xd</p>
+    @foreach(Disco discos in ViewBag.Diccionario.Values){
+            <h3>@MusicStore.Disco.nombre</h3>
+            <img src=@MusicStore.Disco.foto alt="album portada foto">
+            <a href='@Url.Action("SelectIntegrante", "Home", new {dni=integrante.DNI})' >Ir a los datos personales</a>    
+            <a href='@Url.Action("MostrarDatosFamiliares", "Home", new {dni=integrante.DNI})' >Ir a los datos familiares</a>  
+            <a href='@Url.Action("MostrarDatosInteres", "Home", new {dni=integrante.DNI})' >Ir a los datos intereses</a
 </div>
+</section>
+}
