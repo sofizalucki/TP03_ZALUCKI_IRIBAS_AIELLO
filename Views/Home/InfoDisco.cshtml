@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<section>
+
+
+<div>
+<ul>
+@foreach(string tema in ViewBag.Temas){
+    
+        <li><a> @tema</a></li>
+    
+}
+</ul>
+</div>
+</section>
+
