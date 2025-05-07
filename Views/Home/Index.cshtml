@@ -10,7 +10,13 @@
     @foreach(Disco disco in ViewBag.Discos.Values){
             <h3>@disco.nombre</h3>
             <img src=@disco.foto alt="album portada foto">
-            <a href='@Url.Action("infoDisco", "Home", new {dni=integrante.DNI})' >Ver disco completo</a>    
+            <ul>
+             <li>Artista: @disco.artista</li>
+             <li>Productor: @disco.productor</li>
+             <li>Genero: @disco.genero</li>
+             <li>Productor: @disco.productor</li>
+            </ul>
+            <a href='@Url.Action("mostrarDiscos", "Home", new {ID = disco.ID})' >Ver disco completo</a>    
 </div>
 </section>
 }
