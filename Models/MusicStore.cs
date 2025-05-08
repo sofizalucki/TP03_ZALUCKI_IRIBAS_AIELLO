@@ -51,7 +51,7 @@ disco3.Temas.Add("A Rush of Blood to the Head");
 disco3.Temas.Add("Amsterdam");
 Discos.Add(3, disco3);
 
-Disco disco4 = new Disco("Lemonade", "Beyoncé", "Various", "R&B", "/lemonade.jpg", 4);
+Disco disco4 = new Disco("Lemonade", "Beyoncé", "Various", "R&B", "/lemomonade.jpg", 4);
 disco4.Temas.Add("Pray You Catch Me");
 disco4.Temas.Add("Hold Up");
 disco4.Temas.Add("Don't Hurt Yourself");

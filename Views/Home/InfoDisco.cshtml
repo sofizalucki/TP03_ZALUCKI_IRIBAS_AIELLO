@@ -2,9 +2,13 @@
     ViewData["Title"] = "Index";
 }
 <section>
-
-
-<div>
+<h1>@ViewBag.Disco.nombre</h1>
+<img src = "@ViewBag.Disco.foto" alt = "UN RE DISCASO">
+<p>EL ARTISTA DEL ALBUM ES: @ViewBag.Disco.artista</p>
+<p>EL PRODUCTOS DEL ALBUM ES: @ViewBag.Disco.productor</p>
+<p>EL GENERO DEL ALBUM: @ViewBag.Disco.genero</p>
+<nav>
+<h2> LOS TEMAS DEL ALBUM SON:</h2>
 <ul>
 @foreach(string tema in ViewBag.Temas){
     
@@ -12,6 +16,6 @@
     
 }
 </ul>
-</div>
+</nav>
+<a href='@Url.Action("Index", "Home")' >Volver a página principal</a>    
 </section>
-
