@@ -2,12 +2,10 @@
     ViewData["Title"] = "Index";
 }
 <section>
-
-
-<div>
     <h1>MusicStore</h1>
     <p>Todos tus discos favoritos aca...xd</p>
     @foreach(Disco disco in ViewBag.Discos.Values){
+<div>
             <h3>@disco.nombre</h3>
             <img src=@disco.foto alt="album portada foto">
             <ul>
@@ -16,7 +14,7 @@
              <li>Genero: @disco.genero</li>
              <li>Productor: @disco.productor</li>
             </ul>
-            <a href='@Url.Action("mostrarDiscos", "Home", new {ID = disco.ID})' >Ver disco completo</a>    
-</div>
+            <a href='@Url.Action("mostrarDiscos", "Home", new {ID = disco.ID})' >Ver disco completo</a> 
+    <div/>  
+    } 
 </section>
-}

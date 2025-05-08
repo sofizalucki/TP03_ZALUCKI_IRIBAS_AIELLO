@@ -6,7 +6,7 @@ static public void InicializarDiscografica()
 {
 Discos = new Dictionary<int, Disco>();
 
-Disco disco1 = new Disco("AM", "Arctic Monkeys", "James Ford", "Indie Rock", "https://example.com/arcticmonkeys.jpg",1 );
+Disco disco1 = new Disco("AM", "Arctic Monkeys", "James Ford", "Indie Rock", "/AM.jpg",1 );
 disco1.Temas.Add("Do I Wanna Know?");
 disco1.Temas.Add("R U Mine?");
 disco1.Temas.Add("One for the Road");
@@ -21,7 +21,7 @@ disco1.Temas.Add("Knee Socks");
 disco1.Temas.Add("I Wanna Be Yours");
 Discos.Add(1, disco1);
 
-Disco disco2 = new Disco("Midnights", "Taylor Swift", "Jack Antonoff", "Pop", "https://example.com/taylorswift.jpg",2 );
+Disco disco2 = new Disco("Midnights", "Taylor Swift", "Jack Antonoff", "Pop", "/midnights.jpg",2 );
 disco2.Temas.Add("Lavender Haze");
 disco2.Temas.Add("Maroon");
 disco2.Temas.Add("Anti-Hero");
@@ -37,7 +37,7 @@ disco2.Temas.Add("Sweet Nothing");
 disco2.Temas.Add("Mastermind");
 Discos.Add(2, disco2);
 
-Disco disco3 = new Disco("A Rush of Blood to the Head", "Coldplay", "Ken Nelson", "Alternative Rock", "https://example.com/coldplay.jpg",3 );
+Disco disco3 = new Disco("A Rush of Blood to the Head", "Coldplay", "Ken Nelson", "Alternative Rock", "/rush.jpg",3 );
 disco3.Temas.Add("Politik");
 disco3.Temas.Add("In My Place");
 disco3.Temas.Add("God Put a Smile upon Your Face");
@@ -51,7 +51,7 @@ disco3.Temas.Add("A Rush of Blood to the Head");
 disco3.Temas.Add("Amsterdam");
 Discos.Add(3, disco3);
 
-Disco disco4 = new Disco("Lemonade", "Beyoncé", "Various", "R&B", "https://example.com/beyonce.jpg", 4);
+Disco disco4 = new Disco("Lemonade", "Beyoncé", "Various", "R&B", "/lemonade.jpg", 4);
 disco4.Temas.Add("Pray You Catch Me");
 disco4.Temas.Add("Hold Up");
 disco4.Temas.Add("Don't Hurt Yourself");
@@ -66,7 +66,7 @@ disco4.Temas.Add("All Night");
 disco4.Temas.Add("Formation");
 Discos.Add(4, disco4);
 
-Disco disco5 = new Disco("Abbey Road", "The Beatles", "George Martin", "Rock", "https://example.com/beatles.jpg", 5);
+Disco disco5 = new Disco("Abbey Road", "The Beatles", "George Martin", "Rock", "/abbey.jpg", 5);
 disco5.Temas.Add("Come Together");
 disco5.Temas.Add("Something");
 disco5.Temas.Add("Maxwell's Silver Hammer");
@@ -86,7 +86,7 @@ disco5.Temas.Add("The End");
 disco5.Temas.Add("Her Majesty");
 Discos.Add(5, disco5);
 
-Disco disco6 = new Disco("DAMN.", "Kendrick Lamar", "Various", "Hip-Hop", "https://example.com/kendrick.jpg",6 );
+Disco disco6 = new Disco("DAMN.", "Kendrick Lamar", "Various", "Hip-Hop", "/DAMN.jpg",6 );
 disco6.Temas.Add("BLOOD.");
 disco6.Temas.Add("DNA.");
 disco6.Temas.Add("YAH.");
@@ -103,7 +103,7 @@ disco6.Temas.Add("GOD.");
 disco6.Temas.Add("DUCKWORTH.");
 Discos.Add(6, disco6);
 
-Disco disco7 = new Disco("The Fame Monster", "Lady Gaga", "RedOne", "Pop", "https://example.com/ladygaga.jpg",7 );
+Disco disco7 = new Disco("The Fame Monster", "Lady Gaga", "RedOne", "Pop", "/monster.jpg",7 );
 disco7.Temas.Add("Bad Romance");
 disco7.Temas.Add("Alejandro");
 disco7.Temas.Add("Monster");
@@ -114,7 +114,7 @@ disco7.Temas.Add("So Happy I Could Die");
 disco7.Temas.Add("Teeth");
 Discos.Add(7, disco7);
 
-Disco disco8 = new Disco("Random Access Memories", "Daft Punk", "Daft Punk", "Electronic", "https://example.com/daftpunk.jpg", 8);
+Disco disco8 = new Disco("Random Access Memories", "Daft Punk", "Daft Punk", "Electronic", "/random.jpg", 8);
 disco8.Temas.Add("Give Life Back to Music");
 disco8.Temas.Add("The Game of Love");
 disco8.Temas.Add("Giorgio by Moroder");
@@ -130,7 +130,7 @@ disco8.Temas.Add("Doin' It Right");
 disco8.Temas.Add("Contact");
 Discos.Add(8, disco8);
 
-Disco disco9 = new Disco("21", "Adele", "Paul Epworth", "Soul", "https://example.com/adele.jpg", 9);
+Disco disco9 = new Disco("21", "Adele", "Paul Epworth", "Soul", "/21.jpg", 9);
 disco9.Temas.Add("Rolling in the Deep");
 disco9.Temas.Add("Rumour Has It");
 disco9.Temas.Add("Turning Tables");
@@ -144,7 +144,7 @@ disco9.Temas.Add("Lovesong");
 disco9.Temas.Add("Someone Like You");
 Discos.Add(9, disco9);
 
-Disco disco10 = new Disco("Metallica (Black Album)", "Metallica", "Bob Rock", "Metal", "https://example.com/metallica.jpg", 10);
+Disco disco10 = new Disco("Metallica (Black Album)", "Metallica", "Bob Rock", "Metal", "/Metallica.jpg", 10);
 disco10.Temas.Add("Enter Sandman");
 disco10.Temas.Add("Sad but True");
 disco10.Temas.Add("Holier Than Thou");
