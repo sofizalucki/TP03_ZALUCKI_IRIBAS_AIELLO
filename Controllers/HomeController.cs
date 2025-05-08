@@ -20,11 +20,12 @@ public class HomeController : Controller
         return View();
     }
     public IActionResult mostrarDiscos(int ID){
+  
         bool Contiene = MusicStore.Discos.ContainsKey(ID);
         if(Contiene){
         ViewBag.Disco = MusicStore.Discos[ID];
         ViewBag.Temas = MusicStore.Discos[ID].Temas;
         }
-        return View();
+        return View("InfoDisco");
     }
 }
